@@ -4035,14 +4035,15 @@ body.is-preload #header.alt .logo {
 	}
 
 }
+
 @media screen and (max-width: 360px) {
 
 	#avatar {
 		border-radius: 50%;
-			height: 180px;
-			width: 180px;
-			object-fit: cover;
-			object-position: center;
+		height: 180px;
+		width: 180px;
+		object-fit: cover;
+		object-position: center;
 	}
 
 }
@@ -4172,5 +4173,23 @@ body.is-preload #header.alt .logo {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+	}
+}
+
+#header-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+
+	#header-title {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 20px 0;
 	}
 }
