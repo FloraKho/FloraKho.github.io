@@ -4134,16 +4134,23 @@ body.is-preload #header.alt .logo {
 	margin-top: 5px;
 }
 
-.icons {
+#footer-icons {
 	display: flex;
 	justify-content: center;
+	list-style: none;
+
 }
 
 @media screen and (max-width: 480px) {
+	#footer-icons {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		width: 100%;
+	}
 
-	.icons li{
-		width: 120px;
-		height: 120px;
+	#footer-icons li {
+		font-size: large;
 	}
 }
 
